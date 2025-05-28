@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './context/AuthContext';
-import Login from './components/Login';
-import Register from './components/Register';
-import Messages from './components/Messages';
-import PrivateRoute from './components/PrivateRoute';
+import { AuthProvider } from './AuthContext';
+import Login from './Login';
+import Register from './Register';
+import Messages from './Messages';
+import PrivateRoute from './PrivateRoute';
 
 export default function App() {
   return (
@@ -17,4 +17,4 @@ export default function App() {
       </AuthProvider>
     </Router>
   );
-}
+} 
